@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--import Google Icon Font-->
+	<link href="https://font.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+	<!--Let the browser know the website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial scale=1.0"/>
+
+</head>
+
+<body style="background-image:url("images/background.jpg");">
+<div class="navbar-fixed">
+	<nav class="nav-extended">
+    	<div class="nav-wrapper purple darken-2">
+      		<a href="#" class="brand-logo">More Recipes</a>
+      		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+     			 <ul id="nav-mobile" class="right hide-on-med-and-down">
+        			<li><a href="#">Home</a></li>
+        			<li><a href="#">Advertise</a></li>
+        			<li><a href="#">Contact Us</a></li>
+        			<li><a href="#">About Us</a></li>
+        			<li><a href="#">Log out</a></li>
+      			</ul>
+      			<ul class="side-nav" id="mobile-demo">
+                  <li><a href="sass.html">Sass</a></li>
+                  <li><a href="badges.html">Components</a></li>
+                 <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
+        </div>
+    </nav>
+   </div>
+        
+		<br>
+     	<hr>
+     	<div class="center-align"><i class="material-icons">account_box</i></div>
+     	<div class="row">
+     		<div class="col s3"></div>
+     		<div class="col s6">
+     	        <div style="background-color:powderblue;" class="hoverable">
+     		 		<h5 style="text-align:center; font-family:verdana;">SIGN IN</h5>
+     		 			<form class="col s12">
+      						<div class="input-field">
+      							<input type="text" id="name">
+      							<label for="name" class="active black-text">User-Name/E-mail</label>
+      						</div>
+      						<div class="input-field">
+      							<input type="password" id="password" class="validate">
+      							<label for="password" class="active black-text">Password</label>
+      						</div>
+                        </form>
+                </div>
+                		
+                <div class="row">
+                    <div class="col s12 m6 l6">	
+                	    <button style="align-self: left" class="btn waves-effect waves-light" type="submit" name="action">Log in
+                                 
+                        </button>
+                    </div>
+                    <div class="col s6">
+                        <p class="z-depth-1 hide-on-small-only" style="text-align:right">Dont have an Account? <a href="mysignup.html">Sign up, Its FREE!!</a></p>
+                	</div>
+                </div>
+
+            </div>
+           
+        </div>
+
+        <footer class="page-footer purple darken-2" >
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">More Recipes for your delight</h5>
+                <p class="grey-text text-lighten-4 left">More-Recipes provides a platform for you to share the awesome and exciting  recipe ideas you have invented or learnt.Share your culinary ideas with food lovers all over the world. Sign up now to begin</p>
+              </div>
+              <div class="col s12 l6">
+              	<img class="responsive-img right" src="images/pizza.jpg" height="200px" width="300px">
+              </div>
+             
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Copyright © 2017 by Solomon Enenche
+            <a class="grey-text text-lighten-4 right" href="#!"><img src="/images/facebook.jpg"></a>
+            </div>
+          </div>
+        </footer>
+            
+
+
+
+
+	<!--import jQuery before materialize.js-->
+	<script> $(".button-collapse").sideNav();</script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
