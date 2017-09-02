@@ -33,39 +33,25 @@
    </div>
         
 		<br>
-     	<hr>
-     	<div class="center-align"><i class="material-icons">account_box</i></div>
-     	<div class="row">
-     		<div class="col s3"></div>
-     		<div class="col s6">
-     	        <div style="background-color:powderblue;" class="hoverable">
-     		 		<h5 style="text-align:center; font-family:verdana;">SIGN IN</h5>
-     		 			<form class="col s12">
-      						<div class="input-field">
-      							<input type="text" id="name">
-      							<label for="name" class="active black-text">User-Name/E-mail</label>
-      						</div>
-      						<div class="input-field">
-      							<input type="password" id="password" class="validate">
-      							<label for="password" class="active black-text">Password</label>
-      						</div>
-                        </form>
-                </div>
-                		
-                <div class="row">
-                    <div class="col s12 m6 l6">	
-                	    <button style="align-self: left" class="btn waves-effect waves-light" type="submit" name="action">Log in
-                                 
-                        </button>
-                    </div>
-                    <div class="col s6">
-                        <p class="z-depth-1 hide-on-small-only" style="text-align:right">Dont have an Account? <a href="mysignup.html">Sign up, Its FREE!!</a></p>
-                	</div>
-                </div>
+  	<hr>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+            <!-- Modal Trigger -->
+           <a class="waves-effect waves-light btn modal-trigger align-center" href="#modal1">Modal</a>
 
-            </div>
-           
-        </div>
+            <!-- Modal Structure -->
+           <div id="modal1" class="modal">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
+              </div>
+             <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+             </div>
+          </div>
+         </div>
+        </div> 
 
 	<!--import jQuery before materialize.js-->
 	<script> $(".button-collapse").sideNav();</script>
