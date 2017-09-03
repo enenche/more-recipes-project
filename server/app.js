@@ -13,9 +13,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Setup a default catch-all route that sends back a welcome message in JSON format.
-app.get('*', (req, res) => res.status(200).send({
-  message: 'Welcome to the beginning of nothingness.',
-}));
+app.get('/', function(req, res){
+  res.send('hello world');
+});
 
+app.listen(5432);
+	console.log("listening on port 5432");
 
 module.exports = app;
+
+
